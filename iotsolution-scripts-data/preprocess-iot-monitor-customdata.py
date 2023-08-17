@@ -202,7 +202,7 @@ latlong=lat:long'
      identifier = "IoT device performance and failures"
 
      # if dataage - use:dataage_utcoffset_timetype
-     preprocesslogic='Laptop,Status,Brand,Model,CPU,RAM,Storage,Storage type,GPU,Screen,Touch,Final Price'
+     preprocesslogic='VIN,Country,City,State,Postal Code,Model Year,Make,Electric Vehicle,Clean Alte,Electric Ra,Base MSR'
      #preprocesslogic='dataage_-4_day,trend,min,max' # millisecond,second,minute,hour,day
      #preprocesslogic='dataage_-4_hour' # millisecond,second,minute,hour,day
 #     preprocesslogic='dataage_1_minute' # millisecond,second,minute,hour,day
